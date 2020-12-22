@@ -32,7 +32,7 @@
                   <Button fx:id="btnCancel" mnemonicParsing="false" onAction="#onBtnCancelAction" text="Cancel" />
                </children>
             </HBox>
-            <TextField fx:id="txtFieldId" editable="false" GridPane.columnIndex="1" />
+            <TextField fx:id="txtFieldId" editable="false" opacity="0.5" GridPane.columnIndex="1" />
             <TextField fx:id="txtFieldName" GridPane.columnIndex="1" GridPane.rowIndex="1" />
          </children>
       </GridPane>
